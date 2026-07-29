@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /p/
+Disallow: /manage/
+Disallow: /api/
+
+Sitemap: https://pon-hakushu.yhay81.com/sitemap.xml

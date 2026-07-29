@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">ぽん拍手</title>
+  <desc id="desc">個人サイトのページから四つの拍手が飛び、作者だけの集計トレイへ届く</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0v32" fill="none" stroke="#27324a" stroke-opacity=".045"/>
+    </pattern>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffefb"/>
+      <stop offset="1" stop-color="#fbf7ed"/>
+    </linearGradient>
+    <linearGradient id="tray" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#34405a"/>
+      <stop offset="1" stop-color="#242e45"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="170%" height="190%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#27324a" flood-opacity=".16"/>
+    </filter>
+    <filter id="tokenShadow" x="-60%" y="-60%" width="220%" height="240%">
+      <feDropShadow dx="0" dy="7" stdDeviation="6" flood-color="#27324a" flood-opacity=".18"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="#f1eee5"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <path d="M0 520c178-44 300 54 477 12s280-100 445-45 214 21 278-17v160H0z" fill="#ebe6da"/>
+
+  <g transform="translate(66 61)">
+    <g filter="url(#shadow)" transform="rotate(-1 210 220)">
+      <rect x="0" y="34" width="412" height="426" rx="7" fill="url(#paper)" stroke="#d8d2c5" stroke-width="2"/>
+      <rect x="0" y="34" width="412" height="16" rx="7" fill="#ed755e"/>
+      <circle cx="28" cy="42" r="4" fill="#fffdf7" fill-opacity=".72"/>
+      <circle cx="43" cy="42" r="4" fill="#fffdf7" fill-opacity=".72"/>
+      <circle cx="58" cy="42" r="4" fill="#fffdf7" fill-opacity=".72"/>
+      <rect x="36" y="86" width="82" height="10" rx="5" fill="#63aa9c"/>
+      <rect x="36" y="116" width="294" height="16" rx="8" fill="#27324a" fill-opacity=".88"/>
+      <rect x="36" y="143" width="244" height="16" rx="8" fill="#27324a" fill-opacity=".88"/>
+      <rect x="36" y="188" width="334" height="7" rx="3.5" fill="#d8d2c5"/>
+      <rect x="36" y="208" width="307" height="7" rx="3.5" fill="#d8d2c5"/>
+      <rect x="36" y="228" width="323" height="7" rx="3.5" fill="#d8d2c5"/>
+      <rect x="36" y="248" width="265" height="7" rx="3.5" fill="#d8d2c5"/>
+      <rect x="36" y="286" width="152" height="94" rx="6" fill="#e8e2d5"/>
+      <path d="M47 361l37-37 24 20 31-34 38 51z" fill="#9a8ec4" fill-opacity=".62"/>
+      <circle cx="150" cy="308" r="12" fill="#efc859"/>
+      <rect x="210" y="294" width="154" height="7" rx="3.5" fill="#d8d2c5"/>
+      <rect x="210" y="316" width="132" height="7" rx="3.5" fill="#d8d2c5"/>
+      <rect x="210" y="338" width="146" height="7" rx="3.5" fill="#d8d2c5"/>
+      <rect x="210" y="360" width="98" height="7" rx="3.5" fill="#d8d2c5"/>
+      <g transform="translate(114 403)">
+        <rect width="184" height="41" rx="20.5" fill="#fffdf7" stroke="#ed755e" stroke-width="2"/>
+        <circle cx="25" cy="20.5" r="12" fill="#f7d7cf"/>
+        <path d="M20 21c3-8 10-8 12 0-1 6-6 9-6 9s-5-3-6-9z" fill="#ed755e"/>
+        <text x="48" y="26" fill="#27324a" font-family="sans-serif" font-size="15" font-weight="700">このページへ拍手</text>
+      </g>
+    </g>
+    <g transform="translate(15 0)">
+      <rect width="120" height="30" rx="15" fill="#fffdf7" stroke="#d8d2c5"/>
+      <circle cx="18" cy="15" r="5" fill="#63aa9c"/>
+      <text x="32" y="20" fill="#667086" font-family="sans-serif" font-size="12" font-weight="700" letter-spacing="1">YOUR PAGE</text>
+    </g>
+  </g>
+
+  <g fill="none" stroke-linecap="round">
+    <path d="M452 267c98-58 122-123 229-74s91 146 181 145" stroke="#ed755e" stroke-opacity=".36" stroke-width="3" stroke-dasharray="3 11"/>
+    <path d="M455 341c102 16 128 84 226 51s103-100 181-69" stroke="#63aa9c" stroke-opacity=".4" stroke-width="3" stroke-dasharray="3 11"/>
+    <path d="M462 212c85-8 105 22 165 73s135 26 226-14" stroke="#efc859" stroke-opacity=".52" stroke-width="3" stroke-dasharray="3 11"/>
+    <path d="M462 407c83-41 122-30 185 16s124 15 210-40" stroke="#9a8ec4" stroke-opacity=".42" stroke-width="3" stroke-dasharray="3 11"/>
+  </g>
+
+  <g filter="url(#tokenShadow)" font-family="sans-serif" text-anchor="middle">
+    <g transform="translate(558 203) rotate(8)">
+      <circle r="34" fill="#f7d7cf" stroke="#ed755e" stroke-width="2"/>
+      <text y="10" font-size="29">👏</text>
+    </g>
+    <g transform="translate(642 377) rotate(-9)">
+      <circle r="31" fill="#dceee9" stroke="#63aa9c" stroke-width="2"/>
+      <text y="10" font-size="27">🌱</text>
+    </g>
+    <g transform="translate(712 266) rotate(11)">
+      <circle r="33" fill="#fbefc6" stroke="#efc859" stroke-width="2"/>
+      <text y="10" font-size="28">💡</text>
+    </g>
+    <g transform="translate(747 430) rotate(-6)">
+      <circle r="30" fill="#e8e3f4" stroke="#9a8ec4" stroke-width="2"/>
+      <text y="9" font-size="26">💌</text>
+    </g>
+  </g>
+
+  <g transform="translate(850 93)" filter="url(#shadow)">
+    <rect width="286" height="407" rx="10" fill="url(#tray)"/>
+    <g transform="translate(23 23)">
+      <circle cx="7" cy="7" r="7" fill="#ed755e"/>
+      <text x="24" y="12" fill="#fffdf7" fill-opacity=".67" font-family="sans-serif" font-size="12" font-weight="700" letter-spacing="2">PRIVATE TRAY</text>
+      <path d="M0 40h240" stroke="#fff" stroke-opacity=".12"/>
+      <text x="0" y="73" fill="#fff" fill-opacity=".58" font-family="sans-serif" font-size="12">届いた拍手</text>
+      <text x="0" y="120" fill="#fffdf7" font-family="sans-serif" font-size="44" font-weight="800">28</text>
+      <text x="66" y="116" fill="#fff" fill-opacity=".5" font-family="sans-serif" font-size="12">TOTAL</text>
+
+      <g transform="translate(0 149)" font-family="sans-serif">
+        <g>
+          <circle cx="15" cy="15" r="15" fill="#f7d7cf"/>
+          <text x="15" y="22" text-anchor="middle" font-size="17">👏</text>
+          <rect x="46" y="7" width="151" height="16" rx="8" fill="#fff" fill-opacity=".09"/>
+          <rect x="46" y="7" width="128" height="16" rx="8" fill="#ed755e"/>
+          <text x="226" y="21" text-anchor="end" fill="#fffdf7" font-size="15" font-weight="700">14</text>
+        </g>
+        <g transform="translate(0 48)">
+          <circle cx="15" cy="15" r="15" fill="#dceee9"/>
+          <text x="15" y="22" text-anchor="middle" font-size="17">🌱</text>
+          <rect x="46" y="7" width="151" height="16" rx="8" fill="#fff" fill-opacity=".09"/>
+          <rect x="46" y="7" width="76" height="16" rx="8" fill="#63aa9c"/>
+          <text x="226" y="21" text-anchor="end" fill="#fffdf7" font-size="15" font-weight="700">7</text>
+        </g>
+        <g transform="translate(0 96)">
+          <circle cx="15" cy="15" r="15" fill="#fbefc6"/>
+          <text x="15" y="22" text-anchor="middle" font-size="17">💡</text>
+          <rect x="46" y="7" width="151" height="16" rx="8" fill="#fff" fill-opacity=".09"/>
+          <rect x="46" y="7" width="48" height="16" rx="8" fill="#efc859"/>
+          <text x="226" y="21" text-anchor="end" fill="#fffdf7" font-size="15" font-weight="700">4</text>
+        </g>
+        <g transform="translate(0 144)">
+          <circle cx="15" cy="15" r="15" fill="#e8e3f4"/>
+          <text x="15" y="22" text-anchor="middle" font-size="17">💌</text>
+          <rect x="46" y="7" width="151" height="16" rx="8" fill="#fff" fill-opacity=".09"/>
+          <rect x="46" y="7" width="34" height="16" rx="8" fill="#9a8ec4"/>
+          <text x="226" y="21" text-anchor="end" fill="#fffdf7" font-size="15" font-weight="700">3</text>
+        </g>
+      </g>
+      <g transform="translate(0 355)">
+        <rect y="-25" width="5" height="25" rx="2.5" fill="#ed755e"/>
+        <rect x="10" y="-10" width="5" height="10" rx="2.5" fill="#63aa9c"/>
+        <rect x="20" y="-31" width="5" height="31" rx="2.5" fill="#efc859"/>
+        <rect x="30" y="-18" width="5" height="18" rx="2.5" fill="#9a8ec4"/>
+        <rect x="40" y="-36" width="5" height="36" rx="2.5" fill="#ed755e"/>
+        <rect x="50" y="-14" width="5" height="14" rx="2.5" fill="#63aa9c"/>
+        <rect x="60" y="-27" width="5" height="27" rx="2.5" fill="#efc859"/>
+        <rect x="70" y="-21" width="5" height="21" rx="2.5" fill="#9a8ec4"/>
+        <rect x="80" y="-39" width="5" height="39" rx="2.5" fill="#ed755e"/>
+        <rect x="90" y="-24" width="5" height="24" rx="2.5" fill="#63aa9c"/>
+        <path d="M0 1h240" stroke="#fff" stroke-opacity=".13"/>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(68 552)">
+    <g transform="translate(0 2)">
+      <circle cx="17" cy="19" r="15" fill="#f7d7cf" stroke="#27324a"/>
+      <circle cx="34" cy="13" r="15" fill="#dceee9" stroke="#27324a"/>
+      <circle cx="27" cy="32" r="15" fill="#fbefc6" stroke="#27324a"/>
+    </g>
+    <text x="62" y="34" fill="#27324a" font-family="sans-serif" font-size="27" font-weight="800" letter-spacing="3">ぽん拍手</text>
+    <text x="224" y="32" fill="#667086" font-family="sans-serif" font-size="15">そのページへ、ひとつ拍手を。</text>
+  </g>
+</svg>
